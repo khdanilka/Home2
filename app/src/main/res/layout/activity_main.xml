@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="stat.khdanapp.com.home2.MainActivity">
+
+    <TextView
+        android:id="@+id/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duplicate edit text"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/preview_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="8dp"
+        android:background="@android:color/black"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        tools:text="text"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="edit text"
+        android:layout_margin="8dp"
+        android:layout_gravity="start"/>
+
+</LinearLayout>
